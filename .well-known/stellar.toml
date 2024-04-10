@@ -1,0 +1,37 @@
+# stellar.toml for HERACLES SECURITIZATION FUNDS
+ACCOUNTS=["GBZAEQHSDOFYVHSAP7H3HSEJG4WWRANDHB47AY4ILQICIQCCGS2L5IOX"]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="HERACLES SECURITIZATION FUNDS"
+ORG_URL="https://heraclessecuritizationfunds.com"
+ORG_LOGO="https://heraclessecuritizationfunds.com/heraclesonelogo.png"
+ORG_DESCRIPTION="HERACLES SECURITIZATION FUNDS specializes in asset securitization. For detailed management regulation refer to our website."
+ORG_PHYSICAL_ADDRESS="45 boulevard Prince Henri L-1724 Luxembourg Grand Duchy of Luxembourg"
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://heraclessecuritizationfunds.com/address_attestation.jpg"
+ORG_PHONE_NUMBER="1 (123)-456-7890"
+ORG_PHONE_NUMBER_ATTESTATION="https://heraclessecuritizationfunds.com/phone_attestation.jpg"
+ORG_KEYBASE="heraclesfunds"
+ORG_OFFICIAL_EMAIL="legal@heraclessecuritizationfunds.com"
+ORG_LICENSING_AUTHORITY="Luxembourg Business Registers Number O35"
+ORG_LICENSE_NUMBER="ISIN_LU2649114944"
+ORG_SUPPORT_EMAIL="legal@heraclessecuritizationfunds.com"
+
+[[PRINCIPALS]]
+name="Laurent Troude"
+email="laurent.troude@hauffmann.com"
+
+[[CURRENCIES]]
+code="EUR"
+issuer="GBZAEQHSDOFYVHSAP7H3HSEJG4WWRANDHB47AY4ILQICIQCCGS2L5IOX"
+is_asset_anchored="true"
+display_decimals=2
+name="HERACLESONE"
+desc="HERACLESONE is a digital representation of a share in HERACLES SECURITIZATION FUNDS. There will only ever be 77,601 HERACLESONE tokens in existence. Revenue will be distributed in accordance with the decisions of the asset manager HAUFFMANN AM SPF SA."
+conditions="Revenue is distributed annually based on the net asset value. No redemption is offered. The net asset value as of 31/12/2023 is EUR 811.73, as attested by the provided documentation."
+image="https://heraclessecuritizationfunds.com/h1logo.png"
+fixed_number=77601
+attestation_nav="https://heraclessecuritizationfunds.com/attestation_of_net_value.png"
+anchor_asset_type="stock"
+anchor_asset="H1"
+redemption_instructions="None"
